@@ -1,0 +1,47 @@
+{
+  "name": "rankerjs",
+  "version": "0.0.1",
+  "description": "An npm package to rank data and return the top n results in an array with the highest ranked items first",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahmmie/rankerjs.git"
+  },
+  "keywords": [
+    "rankerjs",
+    "ranking",
+    "ranker",
+    "rank",
+    "package",
+    "npm",
+    "node",
+    "javascript",
+    "data",
+    "ranking",
+    "ranking-algorithm",
+    "ranking-algorithms",
+    "ranking-algorithm-js",
+    "array-ranking"
+  ],
+  "bugs": {
+    "url": "https://github.com/sahmmie/rankerjs/issues",
+    "email": "smarsatto@gmail.com"
+  },
+  "author": "Ibrahim Samson",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  }
+}
